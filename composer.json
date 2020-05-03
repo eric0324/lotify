@@ -1,0 +1,20 @@
+{
+    "name": "lotify/lotify",
+    "description": "Lotify is a LINE Notify client SDK that you can build Notify bot quickly.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eric0324",
+            "email": "smart032410@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Ericwu\\Lotify\\": "src"
+        }
+      }
+}
